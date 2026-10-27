@@ -344,9 +344,9 @@ def start_button(code):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(
-        "🎮 <b>NAUGHTY TRUTH OR DARE</b>\n\n"
+        "🎮 <b>TRUTH OR DARE BABY</b>\n\n"
         "Open a private chat and type:\n\n"
-        "<code>@NAUGHTYDARE_bot</code>\n\n"
+        "<code>@TRUTHORDAREBABYBOT</code>\n\n"
         "Then choose the game.",
         parse_mode="HTML"
     )
@@ -778,7 +778,7 @@ def main():
         CallbackQueryHandler(callbacks)
     )
 
-    print("🔥 NAUGHTYDARE BOT IS RUNNING")
+    print("🔥 TRUTHORDAREBABYBOT IS RUNNING")
 
     app.run_polling(
         allowed_updates=Update.ALL_TYPES
