@@ -697,10 +697,10 @@ async def inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     emoji = "🔥" if category == "truth" else "😈"
 
     message = (
-        f"<i>{emoji} {category.upper()}</i>\\n\\n"
-        f"<b>{question}</b>\\n\\n"
-        f"<i>✅ Selected by: {selected_by}</i>\\n"
-        f"<i>🎯 Next turn: {next_player_name}</i>\\n\\n"
+        f"<i>{emoji} {category.upper()}</i>\n\n"
+        f"<b>{question}</b>\n\n"
+        f"<i>✅ Selected by: {selected_by}</i>\n"
+        f"<i>🎯 Next turn: {next_player_name}</i>\n\n"
         "The turn has switched automatically. "
         "The next player can now choose Truth, Dare or Random."
     )
